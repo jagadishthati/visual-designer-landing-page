@@ -1,0 +1,443 @@
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+body{
+    background: black;
+}
+.logo img{
+    width: 7vw;
+    margin-top: 3vh;
+    margin-left: 6vw;
+
+}
+.list-item{
+    color: white;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+    margin-left: 30vw;
+    gap: 4vw;
+}
+
+.intro-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+}
+.intro-img img {
+width: 350px;
+margin-left: 10vw;
+
+}
+.intro h3{
+    color: red;
+}
+.intro h1 {
+    color: white;
+}
+.intro p {
+    color: white;
+
+}
+.intro button{
+    background: red;
+    color: white;
+    width: 10vw;
+    padding: 1vw;
+    border: none;
+}
+
+.intro p{
+    width: 30vw;
+}
+.intro h1{
+    font-weight: 900;
+}
+.intro h3{
+    font-weight: 500;
+}
+.design{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.detail{
+    color: white;
+    width: 50vw;
+    height: 50vh;
+}
+.column{
+    margin-top: 10vh;
+    display: flex;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ui-design{
+    width: 20vw;
+    border: 2px solid black;
+    margin-left: 2vw;
+    height: 42vh;
+    background: #777676;
+}
+.ui-design svg {
+    margin-top: -10vh;
+}
+.detail{
+    color: white;
+width: 17vw;
+margin-top: -1vh;
+margin-left: 4vw;
+}
+.detail h5{
+    color: red;
+}
+.product-design{
+    border: 2px solid black;
+   margin-left: 2vw;
+height: 42vh;
+background: #cd1f1f;
+width: 20vw;
+}
+.product-design svg {
+    margin-left: -22vw;
+  margin-top: -9vh;
+}
+.detail-2{
+    margin-left: 2vw;
+    color: white;
+}
+.branding{
+    width: 21vw;
+    height: 42vh;
+    background: #777676;
+    margin-left: 2vw;
+}
+.ruler-2{
+    width: 6vw;
+margin-top: 4vw;
+margin-left: 6vw;
+}
+.ruler-1{
+    position: absolute;
+    top:99vh;
+    left: 63vw;
+    width: 4vw;
+  }
+  .detail-3{
+    color: white;
+    margin-left: 4vw;
+width: 16vw;
+margin-top: -2vh;
+  }
+  .detail-3 h5 {
+    color: red;
+  }
+  .years{
+     width: 39vw;
+     height: 32vh;
+     background: #777676;
+  }
+  .number-1{
+    margin-left: 12vw;
+    margin-top: 10vh;
+    font-size:calc(60px + (300 - 60) * ((40vw - 300px) / (1600 - 300))) ;
+    color:  red;
+    font-weight: 950;
+  }
+  .years-1{
+    color: white;
+margin-left: 11vw;
+margin-top: -3vh;
+font-weight: 900;
+font-size: larger;
+  }
+  .right-column{
+    display: flex;
+    margin-top: -31vh;
+    margin-left: 44vw;
+  }
+  .client{
+    width: 15vw;
+    height: 10vh;
+    color: white;
+    background: #6b6a6a;
+    padding: 1vw;
+    text-align-last: center;
+    margin-left: -8vw;
+    margin-top: -1vh;
+  }
+  .number-2{
+    font-size:calc(60px + (300 - 60) * ((10vw - 300px) / (1600 - 300))) ; 
+    font-weight: 900;
+    color: red;
+  }
+  .years-2 h2{
+    margin-top: 0vw;
+    color: #342b2b;;
+   
+  }
+.Experience{
+    width: 16vw;
+    height: 10vh;
+    color: white;
+    background: #6b6a6a;
+    padding: 1vw;
+    text-align-last: center;
+    margin-left: 3vw;
+    margin-top: -1vh;
+}
+.number-3{
+    font-size:calc(60px + (300 - 60) * ((10vw - 300px) / (1600 - 300))) ; 
+    font-weight: 900;
+    color: red;
+  }
+  .years-3 h2{
+    margin-top: 0vw;
+    color: #342b2b;;
+   
+  }
+  .bottom-column{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 44vw;
+  }
+  .Project{
+    width: 15vw;
+    height: 10vh;
+    color: white;
+    background: #6b6a6a;
+    padding: 1vw;
+    text-align-last: center;
+    margin-left: -8vw;
+    margin-top: -1vh;
+  }
+  .number-4{
+    font-size:calc(60px + (300 - 60) * ((10vw - 300px) / (1600 - 300))) ; 
+    font-weight: 900;
+    color: red;
+  }
+  .years-4 h2{
+    margin-top: 0vw;
+    color: #342b2b;;
+   
+  }
+.achivements{
+    width: 16vw;
+    height: 10vh;
+    color: white;
+    background: #6b6a6a;
+    padding: 1vw;
+    text-align-last: center;
+    margin-left: 3vw;
+    margin-top: -1vh;
+}
+.number-5{
+    font-size:calc(60px + (300 - 60) * ((10vw - 300px) / (1600 - 300))) ; 
+    font-weight: 900;
+    color: red;
+  }
+  .years-5 h2{
+    margin-top: 0vw;
+    color: #342b2b;;
+   
+  }
+  
+  .featured{
+        color: white;
+        margin-top: 10vh;
+        margin-left: 6vw;
+  }
+  .featured button {
+    float: right;
+    margin-right: 6vw;
+    margin-top: -4vw;
+    color: white;
+    background: red;
+    border: none;
+    padding: 1vw;
+    font-weight: 400 
+  }
+  .Projects{
+    display: flex;
+    margin-top: 6vh;
+    width: 36vw;
+    color: white;
+  
+  }
+  .img-1{
+    margin-left: 5vw;
+  }
+  .img-1 img{
+    width: 32vw;
+    border-bottom: 3vw solid #6b6a6a;
+    border-top: 3vw solid #6b6a6a;
+    border-left: 2vw solid #6b6a6a;
+    border-right: 2vw solid #6b6a6a;
+  }
+  .img2{
+    margin-left: 13vw;
+  }
+  .img2 img{
+    width: 32vw;
+    border-bottom: 3vw solid #6b6a6a;
+    border-top: 3vw solid #6b6a6a;
+    border-left: 2vw solid #6b6a6a;
+    border-right: 2vw solid #6b6a6a;
+  }
+  .img-1 h4 {
+    color: red;
+    margin-top: -1vw;
+  }
+  .img2 h4 {
+    color: red;
+    margin-top: -1vw;
+  }
+  .Projects-2{
+    display: flex;
+    margin-top: 6vh;
+    width: 36vw;
+    color: white;
+  
+  }
+  .img-3{
+    margin-left: 5vw;
+  }
+  .img-3 img{
+    width: 32vw;
+    border-bottom: 3vw solid #6b6a6a;
+    border-top: 3vw solid #6b6a6a;
+    border-left: 2vw solid #6b6a6a;
+    border-right: 2vw solid #6b6a6a;
+  }
+  .img4{
+    margin-left: 13vw;
+  }
+  .img4 img{
+    width: 37vw;
+    border-bottom: 3vw solid #6b6a6a;
+    border-top: 3vw solid #6b6a6a;
+    border-left: 2vw solid #6b6a6a;
+    border-right: 2vw solid #6b6a6a;
+  }
+  .img-3 h4 {
+    color: red;
+    margin-top: -1vw;
+  }
+  .img4 h4 {
+    color: red;
+    margin-top: -1vw;
+  }
+  .bottom{
+    margin-left: 11vw;
+  margin-top: 6vw;
+  width: 76vw;
+  background: #6b6a6a;
+  height: 27vh;
+  color: white;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 3vw;
+  }
+ 
+  .footer p {
+    width: 20vw;
+    margin-top: -1vh;
+  }
+  
+  .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15vw;
+  }
+  .bottom button{
+   margin-right: 10vw;
+   color: white;
+   background: red;
+  border: none;
+  padding: 1vw;
+  font-weight: 500;
+  }
+  .footer{
+    margin-top: 1vh;
+  }
+  .list-item2{
+    display: flex;
+    color: white;
+     justify-content: center;
+     align-items: center;
+     gap: 5vw;
+margin-top: 10vh;
+  }
+  .last{
+    margin-top: 5vh;
+    background: #6b6a6a;
+  }
+  .social-media{
+    display: flex;
+
+    margin-left: 43vw;
+    margin-top: -4vh;
+  }
+  .facebook svg{
+    width: 2vw;
+    margin-top: 0vw;
+    margin-right: 2vw;
+  }
+  .twitter svg{
+    width: 3vw;
+    margin-top: 0vw;
+    margin-right: 2vw;
+  }
+  .youtube svg{
+    width: 3vw;
+    margin-top: 0vw;
+    margin-right: 2vw;
+  }
+  
+  @media screen and (max-width:760px) {
+    .intro-img{
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
+  @media screen and (max-width:760px) {
+    .design{
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
+  @media screen and (max-width:760px) {
+    .column{
+      display: flex;
+      flex-direction: column;
+    }
+    .ui-design{
+      width: 28vw;
+    }
+    .product-design{
+      width: 30vw;
+    }
+    .branding{
+      width: 30vw;
+    }
+   
+
+  }
+  @media screen and (max-width:1000px) {
+    .footer h1{
+      width: max-content;
+    }
+    
+  }
